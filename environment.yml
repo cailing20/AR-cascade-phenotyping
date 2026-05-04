@@ -1,0 +1,14 @@
+name: ar-cascade-fig1
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.9
+  - bcftools
+  - r-base>=4.3
+  - r-data.table
+  - r-ggplot2
+  - r-patchwork
+  - r-scales
+  - r-viridis
+

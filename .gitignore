@@ -1,0 +1,34 @@
+# OS and editor noise
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Large or generated analysis files
+data/raw/*
+data/interim/*
+data/processed/*
+results/*
+logs/*
+
+# Keep directory placeholders and docs
+!data/README.md
+!data/raw/
+!data/raw/.gitkeep
+!data/interim/
+!data/interim/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+!results/figures/
+!results/figures/.gitkeep
+

@@ -1,0 +1,6 @@
+metric	value
+gwas_significant_associations_with_risk_af	401616
+clinvar_joined_gnomad_rows	3151422
+clinvar_unmatched_grch38_rows_added_as_af0	4451343
+clinvar_rows_plotted	7148510
+clinvar_af_column	AF
