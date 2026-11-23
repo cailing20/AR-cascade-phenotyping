@@ -1,0 +1,182 @@
+{
+  "groups": [
+    [
+      "Metabolism",
+      [
+        "MMACHC",
+        "PAH",
+        "CBS",
+        "GALT",
+        "HFE",
+        "LPL"
+      ],
+      "#946B2C",
+      "#FAF7EF"
+    ],
+    [
+      "Kidney / transport",
+      [
+        "PKHD1",
+        "SLC34A3",
+        "SLC12A3",
+        "SLC7A9"
+      ],
+      "#357F76",
+      "#F0F8F5"
+    ],
+    [
+      "Respiratory",
+      [
+        "SERPINA1",
+        "CFTR",
+        "ABCA3"
+      ],
+      "#437D9B",
+      "#F0F6FA"
+    ],
+    [
+      "Neurology",
+      [
+        "GBA1",
+        "NPC1",
+        "PRKN",
+        "POLG",
+        "SPG7"
+      ],
+      "#80628F",
+      "#F7F2FA"
+    ],
+    [
+      "Blood",
+      [
+        "HBB",
+        "F11"
+      ],
+      "#AC6555",
+      "#FBF3F0"
+    ],
+    [
+      "Hearing / vision",
+      [
+        "GJB2",
+        "ABCA4",
+        "CERKL"
+      ],
+      "#6575A1",
+      "#F2F4FB"
+    ],
+    [
+      "Bone / mineral",
+      [
+        "ALPL",
+        "ENPP1"
+      ],
+      "#6D8050",
+      "#F4F7EF"
+    ],
+    [
+      "Vascular",
+      [
+        "ABCC6"
+      ],
+      "#9C655C",
+      "#FAF4F1"
+    ],
+    [
+      "Immune",
+      [
+        "FOXN1",
+        "IL2RB",
+        "AIRE",
+        "TNFRSF13B"
+      ],
+      "#598B8D",
+      "#F0F7F7"
+    ],
+    [
+      "Muscle",
+      [
+        "DYSF",
+        "CLCN1"
+      ],
+      "#8D7558",
+      "#FAF5EF"
+    ],
+    [
+      "Endocrine",
+      [
+        "CYP21A2"
+      ],
+      "#7B8660",
+      "#F5F7EF"
+    ],
+    [
+      "Drug response",
+      [
+        "DPYD"
+      ],
+      "#92714B",
+      "#FAF5EF"
+    ],
+    [
+      "DNA repair / cancer",
+      [
+        "WRN",
+        "BRCA2",
+        "FANCA",
+        "FANCC"
+      ],
+      "#926586",
+      "#F9F2F7"
+    ],
+    [
+      "Psychiatry context",
+      [
+        "CNTNAP2",
+        "NRXN1"
+      ],
+      "#6F7E8D",
+      "#F1F4F7"
+    ]
+  ],
+  "categories": [
+    "Molecular / cellular",
+    "Biochemical",
+    "Physiological",
+    "Imaging",
+    "Clinical"
+  ],
+  "radii": [
+    145,
+    215,
+    285,
+    355,
+    425
+  ],
+  "size_bins": [
+    [
+      "1-9",
+      6
+    ],
+    [
+      "10-99",
+      8
+    ],
+    [
+      "100-999",
+      10
+    ],
+    [
+      "1,000-9,999",
+      12
+    ],
+    [
+      "10,000+",
+      14.5
+    ]
+  ],
+  "point_unit": "gene-publication-cohort-allele mask-measurement category",
+  "source_policy": "Selected original mapped observations plus supported/qualified expansion observations; abstract-only marked explicitly; uncertain allele/intervention-only/pooled/distinct-dominant records excluded from wheel but retained in table",
+  "cohort_policy": "Separate allele masks and source cohorts within one publication, especially ABCA3 discovery/validation; no pooling",
+  "context_policy": "Gene dagger means at least one displayed mask, dosage, inheritance or ascertainment context needs qualification; not a gene-level dominance score"
+}

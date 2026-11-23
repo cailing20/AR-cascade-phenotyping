@@ -1,7 +1,6 @@
-# AR Cascade Perspective Fig1
+# AR Cascade Perspective Figures
 
-Reproducible code for the allele-frequency figure used in the AR cascade
-perspective manuscript.
+Reproducible code for figures in the AR cascade perspective manuscript. The original workflow below generates the allele-frequency figure (Figure 1); the Figure 4 carrier-evidence wheel and detailed supporting data are in [`figure4_carrier_evidence/`](figure4_carrier_evidence/).
 
 The cleaned workflow focuses on the pieces that are present in this project now:
 GWAS Catalog significant associations, ClinVar variants, and gnomAD v4 allele
